@@ -14,7 +14,7 @@ $sql = "INSERT INTO user_info(user_id  ,user_name ,password , age, email)
 		
 		if($conn->query($sql))
 		{
-			header('location:crud.php');
+			header('location:index.php');
 			//echo "data inserted successfully";
 			
 		}
