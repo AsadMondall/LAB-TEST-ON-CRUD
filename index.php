@@ -46,11 +46,12 @@
 			 }
 		?>
 		<form method="POST" action="index.php">
-			<label>Admin_name:</label>
-			<input type="text" placeholder="Enter admin_name:" name="f_name"> <br> <br>
+			<label>User Name:</label>
+			<input type="text" placeholder="Enter user_name:" name="f_name"> <br> <br>
 			<label>Password:</label>
-			<input type="text"  placeholder="Enter admin_password" name="f_pass" > <br> <br>
+			<input type="text"  placeholder="Enter user_password" name="f_pass" > <br> <br>
 			<input type="submit" name ="login" value="Login">
+			<p> Haven't account? <a href="userinfo.php"> Register Here</a> </p>
 		</form>
 	</center>	
 	
