@@ -1,9 +1,9 @@
 <?php
 // Md. Asad MOndall (20cse006)
-	$servername = "sql213.infinityfree.com";
-	$username = "if0_34471923";
-	$password = "79DcYdEsgy2jhXY";
-	$db="if0_34471923_productbuy_sell";
+	$servername = "sql303.infinityfree.com";
+	$username = "if0_34470249";
+	$password = "DwnVMJA75POsKN";
+	$db="if0_34470249_crudlabtest";
 
 	// Create connection
 	$conn = new mysqli($servername, $username, $password, $db);
